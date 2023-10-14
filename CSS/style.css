@@ -1,0 +1,70 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    text-align: center;
+    font-family: Hanken Grotesk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+span{
+    position: absolute;
+    bottom: 1px
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    background: hsl(0, 0%, 100%);
+    width: 25%;
+    border-radius: 1.5rem;
+    height: 400px;
+}
+
+.qr-code{
+    width: 89%;
+    border-radius: 1.1rem;
+    position: relative;
+    top: 15px;
+}
+
+.improve{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    position: relative;;
+    top: 10px;
+    margin: 17px 15px 0 17px;
+    font-size: 18px;
+}
+
+.scan{
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    position: relative;
+    top: 24px;
+    margin: 0 15px 0 15px;
+}
+
+@media (max-width: 632px) {
+    .container{
+        width: 35%;
+        height: 415px;
+    }
+}
+
+@media (max-width: 1024px) {
+    span{
+        bottom: -15px
+    }
+}
+
+
+
+
+
+
+
